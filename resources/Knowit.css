@@ -1,0 +1,57 @@
+.cellNoBreak {
+    white-space: nowrap;
+    word-break:break-all;
+}
+
+.cellNumbered {    
+    text-align: right;
+}
+
+.cellCentered {
+    text-align: center;
+}
+
+.normalPage {
+    color: black;
+    cursor: pointer; 
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.currentPage {
+    color: black;
+    cursor: pointer; 
+    font-weight: bold;        
+    text-decoration: underline;
+}
+
+.endPage {
+    cursor: not-allowed;
+}
+
+.csize {
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+#footer {
+    position:fixed;
+    left:5px;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+    background:white;
+    font-size: medium;
+}
